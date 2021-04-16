@@ -2,7 +2,13 @@ $main_color: red;
 $mainText_fontSize: 26px;
 $text_uppercase: uppercase;
 $navText_color: #2d2d2d;
+$navText_weight: bold;
 $login_fontSize: 18px;
+$descriptionFont_size: 26px;
+$paragraphFont_size: 20px;
+$text_white: #fff;
+$btnFont_size: 22px;
+$btnFont_weight: bold;
 
 .container{
     height: 100px;
@@ -35,7 +41,8 @@ $login_fontSize: 18px;
         a{
             text-decoration: none;
             text-transform: $text_uppercase;
-            color: $navText_color;        
+            color: $navText_color;     
+            font-weight: $navText_weight;   
         }
     }    
 }
@@ -47,6 +54,66 @@ $login_fontSize: 18px;
         &:hover{
             color: #2b9af3;
         }
+    }    
+}
+
+.hero{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    background-image: url('https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: flex-start;
+    position: relative;
+    .hero_container{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 50px;
+        padding: 15px;
+        color: $text_white;
+        .product-logo{        
+            img{
+                height: 60px;
+            }
+        }
+        .product-description{
+            font-size: $descriptionFont_size;
+            p{
+                font-size: $paragraphFont_size;
+            }
+        }
+        .buttons{
+            padding: 10px;
+            .btn{
+                 text-decoration: none;
+                 font-size: $btnFont_size;
+                 color: $text_white;
+                 border: 1px solid #fff;
+                 border-radius: 20px;
+                 padding: 10px 25px;
+                 font-weight: $btnFont_weight;
+            }
+            .btn:not(:last-child){
+                margin-right: 15px;
+            }
+            .btn_colored{
+                background-color: #1473e6;
+                border-color: #1473e6;
+                &:hover{
+                    background-color: #0d66d0;
+                    border-color: #0d66d0;
+                }                
+            }
+            .btn_white{
+                &:hover{
+                    background-color: #fff;
+                    color: #000;
+                }
+            }
+        }
     }
     
+
 }

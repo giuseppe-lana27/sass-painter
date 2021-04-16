@@ -32,6 +32,7 @@
   text-decoration: none;
   text-transform: uppercase;
   color: #2d2d2d;
+  font-weight: bold;
 }
 
 .log-in a {
@@ -41,4 +42,59 @@
 }
 .log-in a:hover {
   color: #2b9af3;
+}
+
+.hero {
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: flex-start;
+  position: relative;
+}
+.hero .hero_container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 50px;
+  padding: 15px;
+  color: #fff;
+}
+.hero .hero_container .product-logo img {
+  height: 60px;
+}
+.hero .hero_container .product-description {
+  font-size: 26px;
+}
+.hero .hero_container .product-description p {
+  font-size: 20px;
+}
+.hero .hero_container .buttons {
+  padding: 10px;
+}
+.hero .hero_container .buttons .btn {
+  text-decoration: none;
+  font-size: 22px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-weight: bold;
+}
+.hero .hero_container .buttons .btn:not(:last-child) {
+  margin-right: 15px;
+}
+.hero .hero_container .buttons .btn_colored {
+  background-color: #1473e6;
+  border-color: #1473e6;
+}
+.hero .hero_container .buttons .btn_colored:hover {
+  background-color: #0d66d0;
+  border-color: #0d66d0;
+}
+.hero .hero_container .buttons .btn_white:hover {
+  background-color: #fff;
+  color: #000;
 }
