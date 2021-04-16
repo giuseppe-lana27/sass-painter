@@ -1,0 +1,39 @@
+.container{    
+    width: 80%;
+    margin: auto;
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;        
+}
+.description-box{
+    width: 60%;
+    margin: auto;
+    text-align: center;    
+    font-size: $titleFont_size;
+}
+.box{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    &.box-reverse{
+        flex-direction: row-reverse;
+    }
+    .box-description{
+        width: 40%;
+        padding: 10px;
+        text-align: center;
+        h2{
+            font-size: $descriptionFont_size;
+        }
+        p{
+            font-size: $paragraphFont_size;
+        }        
+    }
+    .box-img{
+        width: 60%;   
+        text-align: center;     
+        img{
+            width: 80%;
+        }
+    }
+}

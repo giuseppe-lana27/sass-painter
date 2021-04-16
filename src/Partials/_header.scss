@@ -1,23 +1,3 @@
-$main_color: red;
-$mainText_fontSize: 26px;
-$text_uppercase: uppercase;
-$navText_color: #2d2d2d;
-$navText_weight: bold;
-$login_fontSize: 18px;
-$descriptionFont_size: 26px;
-$paragraphFont_size: 20px;
-$text_white: #fff;
-$btnFont_size: 22px;
-$btnFont_weight: bold;
-
-.container{
-    height: 100px;
-    width: 80%;
-    margin: auto;
-    display: flex;    
-    justify-content: space-between;
-    align-items: center;
-}
 .logo{
     height: 50px;
     display: flex;
@@ -60,11 +40,10 @@ $btnFont_weight: bold;
 .hero{
     width: 80%;
     height: 500px;
-    margin: auto;
+    margin: 20px auto;
     background-image: url('https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440');
     background-repeat: no-repeat;
-    background-size: cover;
-    justify-content: flex-start;
+    background-size: cover;    
     position: relative;
     .hero_container{
         position: absolute;
@@ -114,6 +93,4 @@ $btnFont_weight: bold;
             }
         }
     }
-    
-
 }
