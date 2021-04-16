@@ -24,6 +24,7 @@
   text-transform: uppercase;
   color: #2d2d2d;
   font-weight: bold;
+  vertical-align: middle;
 }
 
 .log-in a {
@@ -89,6 +90,10 @@
   color: #000;
 }
 
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
 .container {
   width: 80%;
   margin: auto;
@@ -114,7 +119,7 @@
 }
 .box .box-description {
   width: 40%;
-  padding: 10px;
+  padding: 8px;
   text-align: center;
 }
 .box .box-description h2 {
