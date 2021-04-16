@@ -1,1 +1,44 @@
+.container {
+  height: 100px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.logo {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 100%;
+  margin-right: 10px;
+}
+.logo span {
+  color: red;
+  font-size: 26px;
+}
+
+.main_nav .navigation {
+  list-style: none;
+}
+.main_nav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+.main_nav li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #2d2d2d;
+}
+
+.log-in a {
+  text-decoration: none;
+  color: #2d2d2d;
+  font-size: 18px;
+}
+.log-in a:hover {
+  color: #2b9af3;
+}

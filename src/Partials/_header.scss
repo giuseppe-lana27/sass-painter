@@ -1,0 +1,52 @@
+$main_color: red;
+$mainText_fontSize: 26px;
+$text_uppercase: uppercase;
+$navText_color: #2d2d2d;
+$login_fontSize: 18px;
+
+.container{
+    height: 100px;
+    width: 80%;
+    margin: auto;
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    img{
+        height: 100%;
+        margin-right: 10px;
+    }
+    span{
+        color: $main_color;
+        font-size: $mainText_fontSize;
+    }
+}
+.main_nav{
+    .navigation{
+        list-style: none;
+    }
+    li{
+        display: inline-block;
+        margin-right: 15px;
+        a{
+            text-decoration: none;
+            text-transform: $text_uppercase;
+            color: $navText_color;        
+        }
+    }    
+}
+.log-in{
+    a{
+        text-decoration: none;
+        color: $navText_color;
+        font-size: $login_fontSize;
+        &:hover{
+            color: #2b9af3;
+        }
+    }
+    
+}
